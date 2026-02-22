@@ -1,0 +1,1391 @@
+{
+  "common": {
+    "confirm": "Oke",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "saving": "Lagi nyimpen...",
+    "delete": "Hapus",
+    "refresh": "Muat ulang",
+    "loading": "Lagi dimuat...",
+    "success": "Berhasil",
+    "failed": "Gagal",
+    "enabled": "Nyala",
+    "disabled": "Mati",
+    "close": "Tutup",
+    "open": "Buka",
+    "copy": "Salin",
+    "add": "Tambah",
+    "enable": "Nyalain",
+    "disable": "Matikan",
+    "none": "Nggak ada",
+    "detail": "Detail",
+    "editable": "Bisa diedit",
+    "preview": "Pratinjau",
+    "shared": {
+      "addAccount": "Tambah akun",
+      "columns": {
+        "actions": "Aksi",
+        "plan": "Paket",
+        "addOnPromptCredits": "Add-on prompt kredit",
+        "credits": "Kredit",
+        "email": "Email",
+        "promptCredits": "Pengguna Prompt kredit"
+      },
+      "empty": {
+        "title": "Belum ada akun"
+      },
+      "export": "Ekspor",
+      "filter": {
+        "all": "Semua ({{count}})",
+        "enterprise": "ENTERPRISE ({{count}})",
+        "free": "GRATIS ({{count}})",
+        "pro": "PRO ({{count}})",
+        "business": "BUSINESS ({{count}})",
+        "individual": "INDIVIDUAL ({{count}})"
+      },
+      "filterLabel": "Filter",
+      "import": {
+        "failedMsg": "Impor gagal: {{error}}",
+        "label": "Impor",
+        "importing": "Lagi impor...",
+        "pickFile": "Pilih JSON file untuk impor",
+        "orJson": "Atau impor dari JSON file"
+      },
+      "instances": {
+        "unsupported": {
+          "title": "Belum didukung di sistem ini"
+        },
+        "quota": {
+          "chat": "Pesan chat",
+          "inline": "Saran Inline"
+        },
+        "subtitle": "Mandiri konfigurasi per instance buat paralel multi-akun jalan.",
+        "title": "Multi-instance"
+      },
+      "noMatch": {
+        "desc": "Coba ubah kata kunci atau filternya",
+        "title": "Nggak ada akun yang cocok"
+      },
+      "oauth": {
+        "failed": "Otorisasi gagal",
+        "hint": "Sekali diotorisasi, ini jendela bakal pembaruan otomatis",
+        "openBrowser": "Buka di browser",
+        "success": "Otorisasi berhasil",
+        "meta": "Kedaluwarsa dalam: {{expires}}d; jeda cek: {{interval}}d",
+        "preparing": "Menyiapkan otorisasi info...",
+        "retry": "Buat ulang otorisasi info",
+        "timeoutRetry": "Muat ulang otorisasi tautan",
+        "waiting": "Nunggu otorisasi..."
+      },
+      "refreshAll": "Muat ulang semua",
+      "refreshQuota": "Muat ulang kuota",
+      "search": "Cari akun...",
+      "sort": {
+        "ascTooltip": "Saat ini: Naik. Klik untuk ganti untuk turun",
+        "createdAt": "Dibuat waktu",
+        "descTooltip": "Saat ini: Turun. Klik untuk ganti untuk naik",
+        "toggleDirection": "Ubah urutan arah",
+        "credits": "Berdasarkan sisa kredit",
+        "planEnd": "Berdasarkan siklus end waktu"
+      },
+      "sortLabel": "Urutan",
+      "token": {
+        "empty": "Masukin token atau JSON",
+        "import": "Impor",
+        "importFailedMsg": "Impor gagal: {{error}}",
+        "importing": "Lagi impor...",
+        "importSuccessMsg": "Berhasil impor {{count}} akun",
+        "placeholder": "Tempel token atau JSON..."
+      },
+      "view": {
+        "grid": "Tampilan kartu",
+        "list": "Tampilan daftar"
+      },
+      "addModal": {
+        "import": "Impor lokal",
+        "oauth": "OAuth",
+        "token": "Token / JSON"
+      },
+      "overview": {
+        "title": "Ringkasan akun"
+      },
+      "quota": {
+        "noData": "Belum ada data kuota",
+        "resetDone": "Reset",
+        "hourly": "Saran Inline",
+        "weekly": "Pesan chat"
+      },
+      "subtitle": "Pantau kuota status buat semua akun di real waktu.",
+      "time": {
+        "lessThanMinute": "<1m",
+        "relativeDays": "{{hari}}d",
+        "relativeDaysHours": "{{hari}}d {{jam}}h",
+        "relativeHours": "{{jam}}h",
+        "relativeHoursMinutes": "{{jam}}h {{menit}}m",
+        "relativeMinutes": "{{menit}}m",
+        "relativeWithAbsolute": "{{relative}} ({{absolute}})"
+      },
+      "credits": {
+        "leftInline": "Sisa {{sisa}}",
+        "periodEndOnly": "Akhir siklus: {{end}}",
+        "periodRange": "Siklus: {{mulai}} - {{end}}",
+        "planEndsIn": "Siklus reset dalam {{hari}} hari",
+        "planEndsUnknown": "Waktu siklus belum tersedia",
+        "usedLine": "{{terpakai}} / {{total}} terpakai"
+      },
+      "flowNotice": {
+        "alternative": "Multi-instance isolation: use different --user-data-dir profiles dan log di sekali per instance untuk ganti akun environments cepat."
+      },
+      "injecting": "Lagi dipasang...",
+      "usage": {
+        "resetLine": "Jatah reset {{dateText}}.",
+        "resetUnknown": "Jatah reset -"
+      }
+    }
+  },
+  "nav": {
+    "overview": "Antigravity Akun",
+    "accounts": "Akun",
+    "wakeup": "Tugas wakeup",
+    "fingerprints": "Fingerprint",
+    "settings": "Pengaturan",
+    "codex": "Codex Akun",
+    "githubCopilot": "GitHub Copilot",
+    "windsurf": "Windsurf",
+    "dashboard": "Dasbor",
+    "morePlatforms": "Platform lain",
+    "instances": "Multi-instance"
+  },
+  "breakout": {
+    "gameOver": "Permainan selesai",
+    "gameOverRank": "Lokal Peringkat #{{rank}}",
+    "startGame": "Mulai main",
+    "startHint": "Klik mulai atau press Space",
+    "serveHint": "Press Space untuk jalankan the ball",
+    "rankTitle": "Lokal Papan skor",
+    "rankCurrent": "Saat ini",
+    "rankNoData": "--",
+    "ranking": "Lokal Papan skor",
+    "rankingShort": "Lokal",
+    "rankingEmpty": "Nggak ada lokal ranking data belum",
+    "rankingClear": "Hapus Lokal Ranking",
+    "rankingRankShort": "#{{rank}}",
+    "restart": "Main lagi",
+    "pause": "Jeda",
+    "resume": "Lanjut",
+    "paused": "Dijeda",
+    "level": "Level {{level}}",
+    "levelScore": "Level Skor {{score}}",
+    "levelCleared": "Level Cleared",
+    "nextLevel": "Level berikutnya",
+    "history": "Riwayat",
+    "historyShort": "Log",
+    "historyEmpty": "Belum ada riwayat",
+    "historyClear": "Hapus",
+    "historyScoreShort": "Skor {{score}}",
+    "historyLevelShort": "Lv {{level}}",
+    "historyDurationShort": "Waktu {{duration}}",
+    "historyReasonGameOver": "Permainan selesai",
+    "historyReasonManualExit": "Manual Keluar"
+  },
+  "platformLayout": {
+    "title": "Tata letak platform",
+    "sidebarSelected": "Sidebar dipilih {{count}}/{{maks}}",
+    "reset": "Reset untuk default",
+    "tip": "Drag untuk reorder. Up untuk two platforms bisa be shown di the sidebar. Kalau cuma one is dipilih, cuma one is shown.",
+    "sidebarToggle": "Tampilin di sidebar",
+    "dashboardToggle": "Tampilin di dashboard",
+    "trayToggle": "Tampilin di tray",
+    "hiddenBadge": "Hidden",
+    "openFromMore": "Atur platform layout",
+    "dragHandleLabel": "Drag untuk reorder"
+  },
+  "privacy": {
+    "hideSensitive": "Sembunyikan email",
+    "showSensitive": "Tampilkan email"
+  },
+  "instances": {
+    "title": "Multi-instance",
+    "subtitle": "Terpisah profiles buat multi-akun paralel jalan.",
+    "defaultName": "Default Instance",
+    "search": "Cari instance",
+    "sort": {
+      "label": "Urutan",
+      "createdAt": "Berdasarkan creation waktu",
+      "lastLaunchedAt": "Berdasarkan jalankan waktu",
+      "ascTooltip": "Saat ini: naik, klik untuk ganti untuk turun",
+      "descTooltip": "Saat ini: turun, klik untuk ganti untuk naik",
+      "toggleDirection": "Ubah urutan arah"
+    },
+    "actions": {
+      "create": "Instance baru",
+      "refresh": "Muat ulang",
+      "startAll": "Mulai semua",
+      "restartAll": "Restart semua",
+      "stopAll": "Hentikan semua",
+      "start": "Mulai",
+      "stop": "Hentikan",
+      "openFolder": "Buka folder",
+      "edit": "Edit",
+      "openRootDir": "Buka folder",
+      "selectPath": "Pilih folder",
+      "openWindow": "Buka jendela"
+    },
+    "bulkConfirm": {
+      "startAll": "Mulai semua stopped instance?",
+      "restartAll": "Restart semua berjalan instance?",
+      "stopAll": "Tutup semua instance?"
+    },
+    "status": {
+      "running": "Berjalan",
+      "stopped": "Berhenti",
+      "restarting": "Sedang restart",
+      "starting": "Sedang mulai"
+    },
+    "labels": {
+      "path": "Folder",
+      "args": "Argumen jalan",
+      "argsEmpty": "Nggak ada",
+      "bindAccount": "Terhubung Akun",
+      "unbound": "Belum terhubung",
+      "pendingInit": "Pending inisialisasi (mulai sekali)",
+      "quota": "Kuota",
+      "lastLaunched": "Terakhir dibuka"
+    },
+    "columns": {
+      "instance": "Instance",
+      "email": "Akun",
+      "quota": "Kuota",
+      "actions": "Aksi"
+    },
+    "empty": {
+      "title": "Belum ada instance",
+      "desc": "Buat an terpisah profil untuk cepat spin up multiple instance."
+    },
+    "modal": {
+      "createTitle": "Instance baru",
+      "editTitle": "Edit instance"
+    },
+    "form": {
+      "name": "Nama instance",
+      "namePlaceholder": "e.g. Kerja Akun",
+      "path": "Folder instance",
+      "pathPlaceholder": "Pilih folder instance",
+      "pathReadOnly": "Path nggak bisa diubah saat edit",
+      "pathAutoHint": "Path auto-updates pas nama changes, atau pilih manually",
+      "copyLogin": "Salin sekarang login status",
+      "copyLoginDesc": "Salin pengaturan dan login data dari the default direktori",
+      "initMode": "Mode inisialisasi",
+      "initModeCopy": "Salin sumber instance (default)",
+      "initModeEmpty": "Instance kosong (tanpa salin)",
+      "emptyInitHint": "Choosing no-copy bakal create an kosong direktori cuma. Mulai sekali sebelum binding an akun.",
+      "copySource": "Salin sumber instance",
+      "copySourceDesc": "Salin konfigurasi dan login data dari the dipilih instance",
+      "copySourcePlaceholder": "Pilih a sumber instance",
+      "copySourceRequired": "Pilih dulu instance sumber",
+      "copySourceRunningHint": "The sumber instance is berjalan. It's disarankan untuk tutup it first untuk avoid inconsistent data.",
+      "bindInject": "Ikat akun",
+      "bindAfterInit": "Bindable setelah inisialisasi",
+      "bindDisabledHint": "Buat kosong instance, mulai sekali untuk generate data sebelum binding an akun.",
+      "followCurrent": "Follow sekarang akun",
+      "selectAccount": "Pilih akun",
+      "bindAccount": "Ikat akun",
+      "unbound": "Belum terhubung",
+      "extraArgs": "Kustom jalankan argumen",
+      "extraArgsPlaceholder": "e.g. --disable-gpu --log-level=2",
+      "extraArgsDesc": "Separate argumen dengan spaces, quotes didukung",
+      "nameRequired": "Tolong masukin an instance nama",
+      "pathRequired": "Tolong pilih an instance direktori",
+      "bindRequired": "Tolong pilih an akun untuk ikat"
+    },
+    "quota": {
+      "unbound": "Nggak ada terhubung akun",
+      "accountMissing": "Akun nggak ketemu",
+      "empty": "Nggak ada cached kuota"
+    },
+    "messages": {
+      "created": "Instance dibuat",
+      "emptyCreated": "Kosong instance dibuat. Mulai it sekali sebelum binding an akun.",
+      "updated": "Instance diperbarui",
+      "deleted": "Instance dihapus",
+      "started": "Instance started",
+      "stopped": "Instance stopped",
+      "startedAll": "Started semua stopped instance",
+      "restartedAll": "Restarted berjalan instance",
+      "closedAll": "Closed semua instance",
+      "allAlreadyRunning": "Semua instance are sudah berjalan",
+      "noneRunning": "Nggak ada berjalan instance ketemu"
+    },
+    "runningDialog": {
+      "title": "Instance sudah berjalan",
+      "desc": "Ini instance is sudah berjalan. You bisa go untuk the jendela atau restart it setelah menutup.",
+      "current": "Saat ini strategi: {{nama}}",
+      "pathLabel": "Instance direktori",
+      "go": "Buka sekarang",
+      "restart": "Tutup & restart"
+    },
+    "initGuide": {
+      "title": "Instance nggak initialized",
+      "desc": "Ini is a kosong instance. Cuma the direktori exists dan instance data has nggak been dibuat belum.",
+      "tip": "Jalankan instance ini sekali dulu. You bisa ikat an akun setelah inisialisasi is complete.",
+      "startNow": "Mulai sekarang"
+    },
+    "restartStrategy": {
+      "button": "Restart strategi",
+      "title": "Restart strategi",
+      "desc": "Pilih how instance are restarted. Each option affects cakupan dan stability.",
+      "recommended": "Disarankan",
+      "labels": {
+        "principle": "Principle",
+        "command": "Command",
+        "pros": "Pros",
+        "cons": "Cons"
+      },
+      "safe": {
+        "title": "Safe restart (disarankan)",
+        "principle": "Send SIGTERM untuk the target instance processes so the aplikasi bisa save dan exit, lalu jalankan ulang itu instance (paksa matiin kalau needed).",
+        "commandMac": "macOS/Linux: matiin -15 <pid> (cocok --user-data-dir)",
+        "commandWin": "Windows: taskkill /F /PID <pid> (cocok --user-data-dir)",
+        "pros": "Closer untuk a normal exit, less likely untuk pemicu crash prompts, safer buat data.",
+        "cons": "May take longer saat nunggu buat a graceful shutdown."
+      },
+      "force": {
+        "title": "Paksa restart",
+        "principle": "Match processes berdasarkan --user-data-dir dan hentikan them paksa (SIGKILL / taskkill /F), lalu jalankan ulang the target instance.",
+        "commandMac": "macOS/Linux: pkill -9 -f \"--user-data-dir <dir>\"",
+        "commandWin": "Windows: taskkill /F /PID <pid> (cocok --user-data-dir)",
+        "pros": "Bisa precisely restart a single instance.",
+        "cons": "May pemicu “unexpected keluar” prompts dan risk losing unsaved data."
+      }
+    },
+    "stop": {
+      "title": "Paksa tutup instance",
+      "message": "A termination signal (SIGTERM) bakal be sent untuk paksa tutup ini instance, which may cause data loss. Lanjut?"
+    },
+    "delete": {
+      "title": "Hapus Instance",
+      "message": "Hapus instance {{nama}}? Ini bakal remove the config dan hapus the instance folder."
+    }
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "subtitle": "Customize your Cockpit Tools experience.",
+    "tabs": {
+      "general": "General",
+      "network": "Network",
+      "about": "About"
+    },
+    "general": {
+      "appearance": "Appearance",
+      "language": "Bahasa",
+      "languageDesc": "Pilih the interface bahasa",
+      "theme": "Tema",
+      "themeDesc": "Ganti between dark dan light mode",
+      "themeLight": "Terang",
+      "themeDark": "Gelap",
+      "themeSystem": "Sistem",
+      "accountManagement": "Manajemen akun",
+      "autoRefresh": "Antigravity Otomatis Muat ulang Kuota",
+      "codexAutoRefresh": "Codex Otomatis Muat ulang Kuota",
+      "autoRefreshDesc": "Background pembaruan frequency",
+      "codexAutoRefreshDesc": "Background pembaruan frequency",
+      "autoRefreshDisabled": "Mati",
+      "autoRefreshCustom": "Kustom...",
+      "every15min": "Every 15 menit",
+      "every30min": "Every 30 menit",
+      "every1hour": "Every jam",
+      "minutes": "min",
+      "refreshIntervalLimited": "Kuota reset wakeup enabled, minimum muat ulang interval is 2 menit",
+      "closeBehavior": "Tutup behavior",
+      "closeBehaviorDesc": "Pilih the default action pas menutup the jendela",
+      "closeBehaviorAsk": "Ask every waktu",
+      "closeBehaviorMinimize": "Minimize untuk tray",
+      "closeBehaviorQuit": "Keluar aplikasi",
+      "storageTitle": "Directories & Penyimpanan",
+      "dataDir": "Data Direktori",
+      "dataDirDesc": "Penyimpanan lokasi buat akun dan konfigurasi file.",
+      "fpDir": "Antigravity Penyimpanan",
+      "fpDirDesc": "Penyimpanan lokasi buat Antigravity data file.",
+      "opencodeTitle": "OpenCode Integration",
+      "opencodeRestart": "Restart OpenCode pas lagi ganti Codex",
+      "opencodeRestartDesc": "Sinkron Codex akun info di OpenCode",
+      "opencodeAppPath": "OpenCode jalankan path",
+      "opencodeAppPathDesc": "Leave kosong untuk use the default path",
+      "opencodeAppPathPlaceholder": "Default path",
+      "opencodePathReset": "Reset untuk default",
+      "opencodePathSelect": "Pilih",
+      "codexTitle": "Codex Jalankan",
+      "codexAppPath": "Codex Aplikasi Path",
+      "codexAppPathDesc": "Leave kosong untuk use default path",
+      "codexAppPathPlaceholder": "Default path",
+      "codexPathSelect": "Pilih",
+      "codexPathReset": "Reset untuk default",
+      "vscodeTitle": "VS Code Jalankan",
+      "vscodeAppPath": "VS Code Aplikasi Path",
+      "vscodeAppPathDesc": "Leave kosong untuk use default path",
+      "vscodeAppPathPlaceholder": "Default path",
+      "vscodePathSelect": "Pilih",
+      "vscodePathReset": "Reset untuk default",
+      "antigravityAppPath": "Antigravity Aplikasi Path",
+      "antigravityTitle": "Antigravity Jalankan",
+      "commonTitle": "Common",
+      "antigravitySettingsTitle": "Antigravity Pengaturan",
+      "codexSettingsTitle": "Codex Pengaturan",
+      "githubCopilotSettingsTitle": "GitHub Copilot Pengaturan",
+      "ghcpAutoRefresh": "GitHub Copilot Otomatis Muat ulang Kuota",
+      "ghcpAutoRefreshDesc": "Background pembaruan frequency",
+      "windsurfSettingsTitle": "Windsurf Pengaturan",
+      "windsurfAutoRefresh": "Windsurf Otomatis Muat ulang Kuota",
+      "windsurfAutoRefreshDesc": "Background pembaruan frequency",
+      "windsurfAppPath": "Windsurf Aplikasi Path",
+      "windsurfAppPathDesc": "Leave kosong untuk use default path",
+      "windsurfAppPathPlaceholder": "Default path",
+      "windsurfPathSelect": "Pilih",
+      "windsurfPathReset": "Reset untuk default",
+      "kiroSettingsTitle": "Kiro Pengaturan",
+      "kiroAutoRefresh": "Kiro Otomatis Muat ulang Kuota",
+      "kiroAutoRefreshDesc": "Background pembaruan frequency",
+      "kiroAppPath": "Kiro Aplikasi Path",
+      "kiroAppPathDesc": "Leave kosong untuk use default path",
+      "kiroAppPathPlaceholder": "Default path",
+      "kiroPathSelect": "Pilih",
+      "kiroPathReset": "Reset untuk default",
+      "codexLaunchOnSwitch": "Jalankan Codex Aplikasi pas lagi ganti Codex",
+      "codexLaunchOnSwitchDesc": "Mulai atau restart Codex Aplikasi setelah lagi ganti akun"
+    },
+    "network": {
+      "apiTitle": "Antigravity Cockpit API",
+      "wsService": "WebSocket Layanan",
+      "wsServiceDesc": "Allow external programs (e.g., VS Code extension) untuk connect",
+      "preferredPort": "Preferred Port",
+      "preferredPortDesc": "Default is {{port}}, restart required setelah change",
+      "currentPort": "Saat ini Port",
+      "portNormal": "Layanan berjalan normally",
+      "portFallback": "Port {{configured}} is di use, pakai {{actual}} instead",
+      "restartRequired": "Konfigurasi changed, tolong restart the aplikasi untuk terapkan",
+      "saveSuccess": "Pengaturan tersimpan!",
+      "saveSuccessRestart": "Pengaturan tersimpan! Tolong restart the aplikasi buat port changes untuk take effect.",
+      "saveFailed": "Save gagal: {{error}}"
+    },
+    "about": {
+      "appName": "Cockpit Tools",
+      "slogan": "Professional Manajemen akun Solution",
+      "author": "Author",
+      "wechat": "WeChat",
+      "github": "GitHub",
+      "alipay": "Alipay",
+      "wechatpay": "WeChat Pay",
+      "sponsor": "Sponsor",
+      "sponsorDesc": "Dukungan pengembangan",
+      "feedback": "Feedback",
+      "feedbackDesc": "Report issues/suggestions",
+      "supportDev": "Dukungan Pengembangan",
+      "checkUpdate": "Cek Pembaruan",
+      "checking": "Checking...",
+      "upToDate": "Up untuk date",
+      "newVersion": "v{{version}} tersedia",
+      "download": "Unduh",
+      "checkFailed": "Gagal untuk cek pembaruan, tolong coba again"
+    },
+    "saveSettings": "Save Pengaturan"
+  },
+  "appPath": {
+    "missing": {
+      "title": "Aplikasi path nggak ketemu",
+      "desc": "Could nggak find the {{aplikasi}} aplikasi path. Tolong atur it sekarang untuk lanjut.",
+      "action": "Atur sekarang"
+    }
+  },
+  "accounts": {
+    "title": "Manajemen akun",
+    "subtitle": "Atur your Antigravity akun daftar.",
+    "total": "{{count}} akun",
+    "search": "Cari akun...",
+    "addAccount": "Tambah akun",
+    "refreshAll": "Muat ulang semua",
+    "export": "Ekspor",
+    "import": "Impor",
+    "switchLogin": "Ganti Login",
+    "refreshQuota": "Muat ulang kuota",
+    "copyToken": "Salin Token",
+    "deleteAccount": "Hapus Akun",
+    "confirmDelete": "Are you sure you want untuk hapus akun {{email}}?",
+    "columns": {
+      "email": "Email",
+      "subscription": "Subscription",
+      "quota": "Kuota Status",
+      "fingerprint": "Fingerprint",
+      "lastUsed": "Last Terpakai",
+      "actions": "Aksi"
+    },
+    "status": {
+      "current": "Saat ini",
+      "disabled": "Mati",
+      "authInvalid": "Nggak valid credentials",
+      "refreshFailed": "Muat ulang gagal",
+      "normal": "Normal",
+      "forbidden": "403",
+      "forbidden_tooltip": "API returned 403 Forbidden, akun has nggak ada access untuk Gemini Code Assist",
+      "forbidden_msg": "Akun forbidden, skipped otomatis muat ulang"
+    },
+    "tier": {
+      "pro": "PRO",
+      "ultra": "ULTRA",
+      "free": "GRATIS"
+    },
+    "empty": {
+      "title": "Belum ada akun",
+      "desc": "Klik \"Tambah\" untuk get started",
+      "btn": "Tambah akun"
+    },
+    "noMatch": {
+      "title": "Nggak ada akun yang cocok",
+      "desc": "Nggak ada akun match the sekarang filters"
+    },
+    "view": {
+      "compact": "Ringkas tampilan",
+      "list": "Tampilan daftar",
+      "grid": "Tampilan kartu"
+    },
+    "filterLabel": "Filter akun",
+    "filter": {
+      "all": "Semua ({{count}})",
+      "pro": "PRO ({{count}})",
+      "ultra": "ULTRA ({{count}})",
+      "free": "GRATIS ({{count}})"
+    },
+    "sortLabel": "Urutan",
+    "sort": {
+      "default": "Default",
+      "overall": "Berdasarkan overall kuota",
+      "createdAt": "Berdasarkan creation waktu",
+      "byGroup": "Berdasarkan {{group}} kuota",
+      "byGroupReset": "Berdasarkan {{group}} reset waktu",
+      "descTooltip": "Deskripsi, klik untuk ganti untuk Asc",
+      "ascTooltip": "Asc, klik untuk ganti untuk Deskripsi",
+      "toggleDirection": "Ubah urutan arah"
+    },
+    "filterTags": "Filter Tag",
+    "filterTagsCount": "Tag",
+    "noAvailableTags": "Nggak ada tag tersedia",
+    "clearFilter": "Hapus Filter",
+    "editTags": "Edit Tag",
+    "tagModal": {
+      "title": "Akun Tag",
+      "hint": "Up untuk {{maks}} tag. Each tag bisa be di most {{maxLength}} characters.",
+      "empty": "Nggak ada tag",
+      "suggestionsTitle": "Existing tag",
+      "suggestionsEmpty": "Nggak ada tersedia tag",
+      "inputPlaceholder": "Masukin a tag ({{sisa}} sisa)",
+      "inputDisabledPlaceholder": "Tag limit tercapai",
+      "add": "Tambah",
+      "save": "Save Tag",
+      "error": {
+        "empty": "Tag nggak bisa be kosong",
+        "tooLong": "Tag must be nggak ada longer than {{maks}} characters",
+        "duplicate": "Tag sudah exists",
+        "tooMany": "You bisa tambah up untuk {{maks}} tag"
+      }
+    },
+    "groupByTag": "Group berdasarkan tag",
+    "untagged": "Untagged",
+    "deleteTagAria": "Hapus tag {{tag}}",
+    "confirmDeleteTag": "Hapus tag \"{{tag}}\"? Ini tag bakal be removed dari {{count}} akun.",
+    "defaultGroup": "Default Group",
+    "actions": {
+      "viewDetails": "Tampilan details",
+      "viewError": "Tampilan error",
+      "fingerprint": "Fingerprint",
+      "switch": "Ganti akun",
+      "switchTo": "Ganti ke ini akun",
+      "selectFingerprint": "Pilih fingerprint"
+    },
+    "tabs": {
+      "oauth": "OAuth",
+      "token": "Muat ulang Token",
+      "import": "Impor"
+    },
+    "oauth": {
+      "authorizing": "Authorizing OAuth...",
+      "success": "OAuth diotorisasi",
+      "failed": "OAuth otorisasi gagal: {{error}}",
+      "hint": "We recommend completing Google OAuth di your browser.",
+      "start": "Mulai OAuth otorisasi",
+      "continue": "I've diotorisasi, lanjut",
+      "linkLabel": "Otorisasi tautan",
+      "generatingLink": "Generating otorisasi tautan..."
+    },
+    "token": {
+      "desc": "Tempel muat ulang_token atau akun JSON untuk impor di bulk.",
+      "placeholder": "Didukung format: [{\"email\":\"xxx\",\"muat ulang_token\":\"1//...\"}] atau tempel muat ulang_token directly",
+      "importStart": "Mulai impor",
+      "invalid": "Nggak ada valid muat ulang_token ketemu",
+      "importProgress": "Lagi impor {{sekarang}}/{{total}}...",
+      "importSuccess": "Imported {{count}} akun",
+      "importPartial": "Imported {{berhasil}} akun, gagal {{fail}}",
+      "importFailed": "Impor gagal, tolong cek muat ulang_token"
+    }
+  },
+  "overview": {
+    "title": "Ringkasan akun",
+    "subtitle": "Real-time pemantauan dari semua akun model quotas.",
+    "total": "{{count}} akun",
+    "accountDisabled": "Akun dimatikan",
+    "noQuotaData": "Belum ada data kuota",
+    "currentAccount": "Sekarang di use",
+    "switchTo": "Ganti ke ini akun",
+    "switching": "Lagi ganti...",
+    "fingerprint": "Fingerprint",
+    "bound": "Terhubung",
+    "brandTitle": "Antigravity Manajemen akun"
+  },
+  "fingerprints": {
+    "title": "Perangkat Fingerprints",
+    "subtitle": "Atur perangkat fingerprints terhubung untuk akun.",
+    "toolbar": {
+      "generate": "Generate New",
+      "capture": "Ambil Saat ini",
+      "import": "Impor",
+      "folder": "Folder",
+      "delete": "Hapus"
+    },
+    "table": {
+      "name": "Fingerprint Nama",
+      "machineId": "Mesin ID",
+      "accounts": "Terhubung Akun",
+      "actions": "Aksi",
+      "accountCount": "{{count}} akun",
+      "apply": "Terapkan",
+      "noData": "Nggak ada fingerprint data",
+      "preview": "Pratinjau",
+      "rename": "Ubah nama"
+    },
+    "modals": {
+      "generate": {
+        "title": "Generate Fingerprint",
+        "btn": "Generate"
+      },
+      "capture": {
+        "title": "Ambil Fingerprint",
+        "btn": "Ambil"
+      },
+      "rename": {
+        "title": "Ubah nama Fingerprint",
+        "label": "Fingerprint Nama"
+      },
+      "import": {
+        "title": "Impor Fingerprints",
+        "fromTools": "Impor dari Antigravity Tools",
+        "desc": "Impor dari ~/.antigravity_tools/",
+        "fromJsonBtn": "Impor dari JSON",
+        "jsonExample": "Contoh format:",
+        "jsonPlaceholder": "Kerja fingerprint",
+        "orPasteJson": "Atau tempel JSON"
+      },
+      "bound": {
+        "title": "Terhubung Akun",
+        "add": "Tambah Akun",
+        "empty": "Nggak ada akun terhubung",
+        "emptyAll": "Semua akun are terhubung",
+        "select": "Pilih akun untuk tambah",
+        "from": "Dari: {{nama}}",
+        "back": "Kembali"
+      },
+      "detail": {
+        "title": "Fingerprint Details",
+        "created": "Dibuat di {{waktu}}"
+      }
+    },
+    "messages": {
+      "deleteConfirm": "Hapus ini fingerprint? Akun terhubung untuk it bakal revert untuk original.",
+      "batchDeleteConfirm": "Hapus {{count}} fingerprints? Akun terhubung untuk them bakal revert untuk original.",
+      "generated": "New fingerprint dibuat",
+      "captured": "Saat ini fingerprint captured",
+      "renamed": "Renamed",
+      "deleted": "Fingerprint dihapus",
+      "imported": "Imported {{count}} fingerprints",
+      "addedAccounts": "Ditambahkan {{count}} akun",
+      "enterName": "Masukin fingerprint nama",
+      "previewNotReady": "Pratinjau nggak ready, tolong wait",
+      "duplicate": "Duplicate fingerprint exists: {{nama}}",
+      "readOnly": "Read-only",
+      "current": "Saat ini",
+      "addCount": "Ditambahkan {{count}} akun",
+      "addFailed": "Tambah gagal",
+      "adding": "Adding...",
+      "applyFailed": "Terapkan gagal",
+      "boundCount": "Terhubung {{count}} akun",
+      "captureFailed": "Ambil gagal",
+      "count": "{{count}}",
+      "deleteFailed": "Hapus gagal",
+      "fpLabel": "Fingerprint:",
+      "generateFailed": "Generate gagal",
+      "importFailed": "Impor gagal",
+      "importing": "Lagi impor...",
+      "loadFailed": "Gagal untuk load fingerprint daftar",
+      "processing": "Processing...",
+      "renameFailed": "Ubah nama gagal",
+      "serviceMachineIdEmpty": "Kosong"
+    }
+  },
+  "modals": {
+    "addAccount": {
+      "title": "Tambah akun",
+      "desc": "Tambah your Antigravity akun via Google OAuth",
+      "loginBtn": "Google OAuth Login",
+      "waiting": "Nunggu..."
+    },
+    "import": {
+      "title": "Impor Akun",
+      "desc": "Pilih an impor method",
+      "local": "Impor Lokal Akun",
+      "localDesc": "Impor sekarang logged-in akun dari Antigravity Client",
+      "tools": "Impor Antigravity Tools",
+      "toolsDesc": "Impor dari ~/.antigravity_tools/ direktori",
+      "jsonDivider": "atau Tempel JSON",
+      "orJson": "atau Tempel JSON",
+      "jsonPlaceholder": "Tempel akun JSON konten",
+      "jsonBtn": "Impor dari JSON",
+      "importing": "Lagi impor...",
+      "importBtn": "Impor",
+      "oauthAction": "OAuth Otorisasi",
+      "fromExtension": "Impor dari Plugin",
+      "syncBadge": "Sinkron Antigravity Cockpit plugin akun",
+      "fromLocalDB": "Impor dari Lokal DB",
+      "localDBDesc": "Baca login akun dari Antigravity Client di ini mesin",
+      "toolsDescMigrate": "Migrate akun dari ~/.antigravity_tools/",
+      "importingTools": "Lagi impor dari Antigravity Tools...",
+      "importingLocal": "Lagi impor lokal akun...",
+      "importingExtension": "Lagi impor plugin akun...",
+      "noAccountsFound": "Nggak ada importable akun ketemu"
+    },
+    "fingerprint": {
+      "title": "Pilih Fingerprint",
+      "desc": "Pilih fingerprint buat akun <1>{{email}}</1>",
+      "original": "Original Fingerprint",
+      "new": "Tambah New Fingerprint",
+      "bind": "Confirm Ikat",
+      "selectLabel": "Pilih Fingerprint",
+      "boundCount": "akun"
+    },
+    "quota": {
+      "title": "Kuota Details",
+      "noData": "Belum ada data kuota",
+      "close": "Tutup",
+      "resetTime": "Reset Waktu"
+    },
+    "errors": {
+      "title": "Error Details",
+      "empty": "Nggak ada error details",
+      "account": "Akun",
+      "code": "Error Code",
+      "time": "Occurred Di"
+    }
+  },
+  "pagination": {
+    "info": "Showing {{mulai}} - {{end}} dari {{total}}",
+    "perPage": "{{count}} / page",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{sekarang}} / {{total}}"
+  },
+  "messages": {
+    "deleteConfirm": "Are you sure you want untuk hapus ini akun?",
+    "batchDeleteConfirm": "Are you sure you want untuk hapus {{count}} dipilih akun?",
+    "switched": "Switched untuk {{email}}",
+    "switchFailed": "Ganti gagal: {{error}}",
+    "importSuccess": "Dengan berhasil imported {{count}} akun",
+    "importLocalSuccess": "Dengan berhasil imported akun: {{email}}",
+    "importFailed": "Impor gagal: {{error}}",
+    "exportFailed": "Ekspor gagal: {{error}}",
+    "bindFailed": "Ikat gagal: {{error}}",
+    "jsonRequired": "Tolong masukin atau tempel JSON konten",
+    "example": "Contoh",
+    "actionRunning": "{{action}}...",
+    "actionSuccess": "{{action}} berhasil",
+    "actionFailed": "{{action}} gagal: {{error}}"
+  },
+  "wakeup": {
+    "title": "Tugas wakeup",
+    "subtitle": "Atur wakeup tasks dengan per-task control dan a global ganti.",
+    "globalToggle": "Global Wakeup Ganti",
+    "newTask": "New Tugas",
+    "runTest": "Jalan Test",
+    "history": "Pemicu Riwayat",
+    "gotoAddAccount": "Tambah Akun",
+    "emptyTitle": "Nggak ada wakeup tasks belum",
+    "emptyDesc": "Tasks bakal otomatis pemicu wakeups based di rules.",
+    "statusEnabled": "Nyala",
+    "statusDisabled": "Mati",
+    "statusRunning": "Berjalan",
+    "edit": "Edit",
+    "defaultTaskName": "Wakeup Tugas",
+    "newTaskName": "New Wakeup Tugas",
+    "historyCount": "Pemicu Riwayat ({{count}})",
+    "historyEmpty": "Nggak ada riwayat belum",
+    "historyClear": "Hapus riwayat",
+    "historyPromptLabel": "Prompt: {{prompt}}",
+    "format": {
+      "noReply": "(Nggak ada reply)",
+      "durationMs": "{{ms}}ms",
+      "tokens": "tokens={{prompt}}+{{completion}}={{total}}",
+      "traceId": "traceId={{traceId}}",
+      "detailJoiner": ", ",
+      "message": "[[{{model}}]]: {{reply}}{{suffix}}",
+      "none": "--",
+      "today": "Today {{waktu}}",
+      "tomorrow": "Tomorrow {{waktu}}",
+      "weekdayWithTime": "{{hari}} {{waktu}}",
+      "notSelected": "Nggak dipilih",
+      "joiner": ", ",
+      "moreItems": "{{items}} ({{total}} items)",
+      "quotaReset": "Kuota reset otomatis wakeup",
+      "crontab": "Crontab: {{expr}}",
+      "daily": "Daily {{kali}}{{suffix}}",
+      "weekly": "Mingguan {{hari}} {{kali}}{{suffix}}",
+      "interval": "Every {{jam}}h ({{mulai}}-{{end}})",
+      "invalidCrontab": "Nggak valid Crontab"
+    },
+    "weekdays": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "notice": {
+      "modelsFetchFailed": "Gagal untuk fetch model, tolong cek akun status",
+      "featureDisabled": "Wakeup is dimatikan",
+      "taskMissingModels": "Tugas has nggak ada dipilih model",
+      "taskMissingAccounts": "Tugas has nggak ada dipilih akun",
+      "taskFailed": "Tugas \"{{nama}}\" gagal buat {{count}} request(s)",
+      "taskCompleted": "Tugas \"{{nama}}\" selesai",
+      "testMissingModel": "Tolong pilih a test model",
+      "testMissingAccount": "Tolong pilih a test akun",
+      "testFailed": "Test gagal buat {{count}} request(s)",
+      "testCompleted": "Test selesai",
+      "nameRequired": "Tolong masukin a tugas nama",
+      "accountRequired": "Pilih di least one akun",
+      "modelRequired": "Pilih di least one model",
+      "crontabRequired": "Tolong masukin a crontab expression",
+      "taskSaved": "Tugas \"{{nama}}\" tersimpan",
+      "featureOff": "Wakeup dimatikan",
+      "featureOn": "Wakeup enabled",
+      "refreshIntervalAdjusted": "Muat ulang interval adjusted: {{old}} → {{new}}"
+    },
+    "refreshInterval": {
+      "disabled": "Mati",
+      "minutes": "menit"
+    },
+    "triggerSource": {
+      "scheduled": "Terjadwal",
+      "crontab": "Crontab",
+      "quotaReset": "Kuota reset",
+      "manual": "Jalan Test",
+      "unknown": "Nggak diketahui"
+    },
+    "taskCard": {
+      "accountsCount": "Akun {{count}}",
+      "modelsCount": "Model {{count}}",
+      "accountsLabel": "Akun: {{pratinjau}}",
+      "modelsLabel": "Model: {{pratinjau}}",
+      "lastRun": "Last {{waktu}}",
+      "nextRun": "Next {{waktu}}"
+    },
+    "dialogs": {
+      "enableTitle": "Enable wakeup",
+      "enableDesc": "Enabling wakeup bakal disable the plugin wakeup feature. Lanjut?",
+      "deleteConfirm": "Hapus tugas \"{{nama}}\"?",
+      "testTitle": "Jalan Test",
+      "historyTitle": "Pemicu Riwayat",
+      "taskTitleEdit": "Edit Wakeup Tugas",
+      "taskTitleNew": "New Wakeup Tugas"
+    },
+    "form": {
+      "taskName": "Tugas nama",
+      "taskStatus": "Tugas status",
+      "triggerMode": "Pemicu mode",
+      "triggerModeHint": "1. Terjadwal: pemicu di atur kali.\\n2. Crontab: define dengan an expression.\\n3. Kuota reset: pemicu sekali pas kuota is full.",
+      "modeScheduled": "📅 Terjadwal",
+      "modeCrontab": "🧩 Crontab",
+      "modeQuotaReset": "🔄 Kuota reset",
+      "modelSelect": "Model selection",
+      "modelHint": "Buat the same kuota group, pilih one model. Multiple model pemicu di sequence.",
+      "modelsEmpty": "Nggak ada disarankan model",
+      "accountSelect": "Akun selection",
+      "accountHint": "Pilih multiple akun; wakeup bakal use them di sequence.",
+      "accountsEmpty": "Nggak ada akun",
+      "customPrompt": "Kustom prompt",
+      "promptPlaceholder": "Default {{word}}",
+      "promptHint": "Leave kosong untuk use default prompt {{word}}.",
+      "maxTokens": "Maks output tokens",
+      "maxTokensHint": "Default 0 (unlimited).",
+      "repeatMode": "Repeat mode",
+      "repeatDaily": "Daily",
+      "repeatWeekly": "Mingguan",
+      "repeatInterval": "Interval",
+      "selectTime": "Pilih waktu",
+      "customTime": "Kustom waktu",
+      "selectWeekday": "Pilih weekday",
+      "quickWorkdays": "Weekdays",
+      "quickWeekend": "Weekend",
+      "quickAll": "Semua",
+      "intervalSetting": "Interval pengaturan",
+      "intervalEvery": "Every",
+      "intervalHours": "jam",
+      "intervalStart": "Mulai",
+      "intervalEnd": "End",
+      "nextRuns": "Next jalan",
+      "nextRunsEmpty": "Tolong pilih pemicu kali",
+      "crontab": "Crontab expression",
+      "crontabPlaceholder": "e.g. 0 8,12,17 * * *",
+      "crontabValidate": "Validate",
+      "crontabValidateHint": "Expression bakal be validated di save",
+      "crontabPreviewEmpty": "Tolong masukin a valid Crontab expression",
+      "timeWindowEnabled": "Enable waktu jendela",
+      "timeWindowHint": "Pas enabled, kuota reset triggers cuma within the jendela; outside uses fixed kali.",
+      "timeWindow": "Kuota reset active jendela",
+      "timeWindowFrom": "Dari",
+      "timeWindowTo": "Untuk",
+      "fallbackTimes": "Fallback kali",
+      "saveTask": "Save tugas"
+    },
+    "test": {
+      "modelsLabel": "Model untuk pemicu",
+      "accountsLabel": "Test akun",
+      "accountsHint": "Pilih multiple akun untuk test dengan.",
+      "start": "Mulai test",
+      "testing": "Testing..."
+    }
+  },
+  "update_notification": {
+    "title": "Pembaruan Tersedia",
+    "message": "Saat ini version v{{sekarang}}, a new version is tersedia.",
+    "action": "Unduh Sekarang",
+    "whatsNew": "What's New"
+  },
+  "closeDialog": {
+    "title": "Tutup Jendela",
+    "description": "Pilih an action pas menutup the jendela",
+    "minimize": "Minimize untuk Tray",
+    "minimizeDesc": "Aplikasi bakal lanjut berjalan di the background",
+    "quit": "Keluar Aplikasi",
+    "quitDesc": "Completely tutup the aplikasi",
+    "remember": "Remember my choice, don't ask again"
+  },
+  "group_settings": {
+    "title": "Group Management",
+    "group_list": "Group Daftar",
+    "group_name_placeholder": "Group Nama",
+    "save": "Save Groups",
+    "other_group": "Other Model"
+  },
+  "codex": {
+    "title": "Codex Manajemen akun",
+    "subtitle": "Real-time pemantauan dari semua Codex akun model quotas.",
+    "instances": {
+      "subtitle": "Mandiri konfigurasi per instance, paralel operation dengan multiple akun.",
+      "comingSoon": "Multi-Instance Coming Sebentar lagi",
+      "comingSoonDesc": "Jalan multiple Codex.aplikasi instance dengan different akun simultaneously, stay tuned.",
+      "unsupported": {
+        "desc": "Codex multi-instance is sekarang tersedia cuma di macOS."
+      },
+      "quota": {
+        "hourly": "5h",
+        "weekly": "Mingguan"
+      },
+      "restartStrategy": {
+        "safe": {
+          "principle": "Send SIGTERM untuk the target Codex process so the aplikasi bisa save dan exit, lalu jalankan ulang itu instance (paksa matiin kalau needed).",
+          "commandMac": "macOS: matiin -15 <pid> (match CODEX_HOME)",
+          "commandWin": "Windows: taskkill /F /PID <pid> (match CODEX_HOME)"
+        },
+        "force": {
+          "principle": "Match processes berdasarkan CODEX_HOME dan hentikan them paksa (SIGKILL / taskkill /F), lalu jalankan ulang the target instance.",
+          "commandMac": "macOS: pkill -9 -f \"CODEX_HOME=<dir>\"",
+          "commandWin": "Windows: taskkill /F /PID <pid> (match CODEX_HOME)"
+        }
+      }
+    },
+    "refreshSuccess": "Kuota refreshed",
+    "refreshFailed": "Kuota muat ulang gagal: {{error}}",
+    "refreshAllSuccess": "Muat ulang selesai, {{count}} akun(s) berhasil",
+    "refreshAllPartialFailed": "Muat ulang selesai, {{berhasil}} / {{total}} akun(s) berhasil dan some gagal",
+    "switch": "Ganti",
+    "switched": "Switched untuk {{email}}",
+    "switchFailed": "Ganti gagal: {{error}}",
+    "current": "Saat ini",
+    "empty": {
+      "description": "Klik \"Tambah Akun\" untuk get started"
+    },
+    "addModal": {
+      "title": "Tambah Codex Akun",
+      "oauth": "OAuth Login",
+      "token": "JSON Impor",
+      "local": "Impor lokal"
+    },
+    "oauth": {
+      "desc": "Klik the button below dan complete OpenAI otorisasi di your browser",
+      "preparing": "Menyiapkan otorisasi tautan...",
+      "exchanging": "Exchanging token...",
+      "portInUse": "Port {{port}} is sudah di use. Tutup dulu the aplikasi pakai ini port dan coba again.",
+      "portInUseTitle": "Port di use",
+      "portInUseConfirm": "Port {{port}} is di use. Tutup the process pakai ini port?",
+      "portCloseFailed": "Gagal untuk tutup port: {{error}}",
+      "portStillInUse": "Port {{port}} is still di use.",
+      "portInUseAction": "Tutup port dan retry"
+    },
+    "token": {
+      "desc": "Tempel auth.json konten atau akun JSON data",
+      "placeholder": "Tempel JSON konten..."
+    },
+    "local": {
+      "desc": "Impor the sekarang logged-in akun dari ~/.codex/auth.json",
+      "import": "Get Lokal Akun"
+    },
+    "import": {
+      "localDesc": "Impor Codex akun dari locally signed-in sessions.",
+      "importing": "Lagi impor lokal akun...",
+      "successMsg": "Impor berhasil: {{email}}"
+    },
+    "quota": {
+      "hourly": "5-jam kuota",
+      "weekly": "Mingguan kuota",
+      "reset": "Reset"
+    },
+    "quotaError": {
+      "badge": "Kuota error",
+      "generic": "Kuota muat ulang gagal, tolong coba again later",
+      "deactivatedWorkspace": "Workspace is deactivated, ganti akun atau re-authorize"
+    },
+    "plan": {
+      "free": "GRATIS",
+      "plus": "PLUS",
+      "pro": "PRO",
+      "team": "TEAM",
+      "enterprise": "ENTERPRISE"
+    },
+    "time": {
+      "today": "Today {{waktu}}",
+      "tomorrow": "Tomorrow {{waktu}}",
+      "dateTime": "{{date}} {{waktu}}"
+    },
+    "view": {
+      "compact": "Ringkas tampilan"
+    },
+    "filter": {
+      "plus": "PLUS ({{count}})",
+      "team": "TEAM ({{count}})"
+    },
+    "sort": {
+      "weekly": "Mingguan kuota",
+      "hourly": "5-jam kuota",
+      "weeklyReset": "Mingguan reset waktu",
+      "hourlyReset": "5-jam reset waktu"
+    },
+    "opencodeSwitch": "OpenCode ganti ubah",
+    "opencodeSwitchDesc": "Sinkron Codex akun info di OpenCode",
+    "opencodeSwitchFailed": "Gagal untuk pembaruan OpenCode ubah: {{error}}",
+    "columns": {
+      "hourly": "5-jam kuota",
+      "weekly": "Mingguan kuota"
+    },
+    "filterTags": "Filter Tag",
+    "filterTagsCount": "Tag",
+    "noAvailableTags": "Nggak ada tag tersedia",
+    "clearFilter": "Hapus Filter",
+    "editTags": "Edit Tag"
+  },
+  "githubCopilot": {
+    "title": "GitHub Copilot Manajemen akun",
+    "instances": {
+      "unsupported": {
+        "desc": "GitHub Copilot multi-instance is tersedia cuma di macOS."
+      }
+    },
+    "empty": {
+      "description": "Klik \"Tambah akun\" buat mulai ngatur GitHub Copilot akun"
+    },
+    "addModal": {
+      "title": "Tambah GitHub Copilot Akun"
+    },
+    "oauth": {
+      "desc": "Klik the button below dan complete GitHub Copilot otorisasi di your browser."
+    },
+    "token": {
+      "desc": "Tempel your GitHub Copilot access token atau exported JSON data."
+    },
+    "import": {
+      "localDesc": "Impor GitHub Copilot akun data dari a JSON file."
+    },
+    "sort": {
+      "weekly": "Berdasarkan Chat pesan pemakaian",
+      "hourly": "Berdasarkan Inline Suggestions pemakaian",
+      "weeklyReset": "Berdasarkan Chat pesan reset waktu",
+      "hourlyReset": "Berdasarkan Inline Suggestions reset waktu"
+    },
+    "columns": {
+      "hourly": "Saran Inline",
+      "weekly": "Pesan chat"
+    },
+    "injectToVSCode": "Ganti ke VS Code",
+    "injectSuccess": "Token injected untuk VS Code dengan berhasil. VS Code is launching.",
+    "injectRequireClose": "Tutup dulu VS Code sebelum injecting.",
+    "flowNotice": {
+      "title": "GitHub Copilot akun panduan (klik untuk expand/collapse)",
+      "desc": "Lagi ganti akun requires reading VS Code lokal auth penyimpanan dan pakai the sistem kredensial layanan buat dekripsi/write-back. Data is diproses locally cuma.",
+      "inject": "One-click lagi ganti: Ini tool membaca lokal VS Code enkripsi material (DPAPI/Keychain/Secret Layanan), decrypts the auth session di status.vscdb, replaces the GitHub Copilot token, dan re-encrypts it — semua locally di your mesin.",
+      "reason": "Permission cakupan: baca VS Code auth database (status.vscdb) dan call sistem kredensial capability (Windows DPAPI / macOS Keychain / Linux Secret Layanan) buat dekripsi/write-back.",
+      "storage": "Data cakupan: cuma GitHub auth-session related entries are baca/diperbarui; semua processes jalan locally."
+    }
+  },
+  "dashboard": {
+    "title": "Akun Dashboard",
+    "summary": {
+      "label": "Ringkasan",
+      "title": "Akun Snapshot",
+      "desc": "See Antigravity dan Codex di a glance"
+    },
+    "stats": {
+      "antigravity": "Antigravity Akun",
+      "codex": "Codex Akun",
+      "currentAntigravity": "Saat ini Antigravity",
+      "currentCodex": "Saat ini Codex",
+      "providers": "Providers",
+      "totalAccounts": "Total akun"
+    },
+    "panels": {
+      "antigravity": "Antigravity",
+      "codex": "Codex",
+      "githubCopilot": "GitHub Copilot",
+      "planDistribution": "Paket distribution",
+      "current": "Akun yang dipakai",
+      "recommended": "Disarankan akun",
+      "empty": "Nggak ada akun belum",
+      "emptyDesc": "Tambah an akun untuk see details"
+    },
+    "quota": {
+      "remaining": "Sisa kuota {{value}}%",
+      "codex": "5-jam {{hourly}}% · Mingguan {{mingguan}}%"
+    },
+    "emptyAccount": "Nggak ada akun",
+    "sections": {
+      "antigravity": "Antigravity Akun",
+      "codex": "Codex Akun"
+    },
+    "actions": {
+      "refresh": "Muat ulang cards",
+      "viewAll": "Semua akun"
+    },
+    "badges": {
+      "recommended": "Disarankan"
+    },
+    "totalAccounts": "Total akun",
+    "current": "Akun yang dipakai",
+    "recommended": "Disarankan akun",
+    "noAccount": "Nggak ada akun",
+    "switch": "Ganti",
+    "switchTo": "Ganti ke ini akun",
+    "noRecommendation": "Nggak ada better recommendation",
+    "noData": "Nggak ada data",
+    "viewAllAccounts": "Tampilan semua akun"
+  },
+  "error": {
+    "fileCorrupted": {
+      "title": "File Baca Gagal",
+      "description": "File {{fileName}} is corrupted dan nggak bisa be parsed.",
+      "errorInfo": "Error Details",
+      "filePath": "File Lokasi",
+      "helpText": "Tolong buka the folder untuk repair manually atau hapus the file, lalu restart the aplikasi.",
+      "openFolder": "Buka folder"
+    }
+  },
+  "quickSettings": {
+    "antigravity": {
+      "title": "Antigravity Pengaturan",
+      "appPath": "Jalankan Path"
+    },
+    "codex": {
+      "title": "Codex Pengaturan",
+      "appPath": "Jalankan Path"
+    },
+    "githubCopilot": {
+      "title": "GitHub Copilot Pengaturan",
+      "appPath": "VS Code Path"
+    },
+    "refreshInterval": "Kuota Otomatis Muat ulang",
+    "codexRefreshInterval": "Kuota Otomatis Muat ulang",
+    "ghcpRefreshInterval": "Kuota Otomatis Muat ulang",
+    "autoSwitch": {
+      "title": "Otomatis Ganti",
+      "enable": "Enable Otomatis Ganti",
+      "threshold": "Ganti Batas",
+      "thresholdDesc": "Otomatis ganti pas any model kuota falls below ini percentage",
+      "hint": "Otomatis ganti untuk the akun dengan the highest kuota pas any model kuota is below the batas."
+    },
+    "quotaAlert": {
+      "title": "Peringatan kuota",
+      "enable": "Enable Kuota Peringatan",
+      "threshold": "Peringatan Batas",
+      "thresholdDesc": "Pemicu peringatan pas any model kuota falls below ini percentage",
+      "hint": "Pas any current-account model kuota drops below the batas, send a native notification dan tampilin a quick-switch action di the aplikasi."
+    },
+    "customInput": "Kustom",
+    "apply": "Terapkan",
+    "inputMinutes": "Masukin menit",
+    "inputPercent": "Masukin percentage",
+    "windsurf": {
+      "title": "Windsurf Pengaturan",
+      "appPath": "Windsurf Path"
+    },
+    "windsurfRefreshInterval": "Kuota Otomatis Muat ulang",
+    "kiro": {
+      "title": "Kiro Pengaturan",
+      "appPath": "Kiro Path"
+    },
+    "kiroRefreshInterval": "Otomatis muat ulang kuota"
+  },
+  "quotaAlert": {
+    "bannerText": "Kuota peringatan buat {{email}} (batas {{batas}}%, lowest {{lowest}}%, model: {{model}})",
+    "switchAction": "Ganti cepat: {{email}}",
+    "switching": "Lagi ganti...",
+    "switchFailed": "Gagal cepat ganti: {{error}}",
+    "modal": {
+      "title": "Peringatan kuota",
+      "desc": "The sekarang akun kuota has tercapai the peringatan batas. Tolong handle it sebentar lagi.",
+      "unknownModel": "Model nggak dikenal",
+      "platform": "Platform",
+      "account": "Akun yang dipakai",
+      "threshold": "Batas peringatan",
+      "lowest": "Saat ini lowest",
+      "models": "Model yang kena",
+      "recommended": "Saran ganti akun",
+      "noRecommendation": "Nggak ada kandidat akun buat diganti",
+      "later": "Nanti",
+      "openSettings": "Atur peringatan",
+      "switchNow": "Cepat ganti untuk {{email}}",
+      "switchFailedTitle": "Ganti gagal",
+      "switchFailedBody": "Gagal cepat ganti: {{error}}"
+    }
+  },
+  "windsurf": {
+    "title": "Windsurf Manajemen akun",
+    "instances": {
+      "unsupported": {
+        "desc": "Windsurf multi-instance is tersedia cuma di macOS."
+      }
+    },
+    "empty": {
+      "description": "Klik \"Tambah akun\" buat mulai ngatur Windsurf akun"
+    },
+    "addModal": {
+      "title": "Tambah Windsurf Akun",
+      "password": "Email & kata sandi"
+    },
+    "oauth": {
+      "desc": "Klik the button below dan complete Windsurf otorisasi di your browser."
+    },
+    "token": {
+      "desc": "Tempel your Windsurf access token atau exported JSON data."
+    },
+    "import": {
+      "localDesc": "Impor Windsurf akun data dari a JSON file.",
+      "localClient": "Impor dari lokal Windsurf"
+    },
+    "credits": {
+      "title": "Paket",
+      "renewMonthly": "Kredit renew every bulan",
+      "left": "{{count}} kredit sisa",
+      "leftUnknown": "Kredit sisa -",
+      "promptLeft": "{{sisa}}/{{total}} prompt kredit sisa",
+      "promptLeftNoTotal": "{{sisa}} prompt kredit sisa",
+      "promptLeftUnknown": "Prompt kredit sisa -",
+      "addOnAvailable": "{{count}} add-on kredit tersedia"
+    },
+    "columns": {
+      "plan": "Tag"
+    },
+    "injectToVSCode": "Ganti ke Windsurf",
+    "injectSuccess": "Ganti akun selesai. Windsurf is launching.",
+    "injectRequireClose": "Tutup dulu Windsurf sebelum ganti akun.",
+    "flowNotice": {
+      "title": "Windsurf akun panduan (klik untuk expand/collapse)",
+      "desc": "Lagi ganti akun requires reading Windsurf lokal auth penyimpanan dan, dengan client-compatible rules, pakai sistem kredensial/enkripsi capabilities buat dekripsi/write-back. Data is diproses locally cuma.",
+      "inject": "One-click lagi ganti: Ini tool membaca lokal Windsurf enkripsi material (DPAPI/Keychain/Secret Layanan), processes the auth session di status.vscdb, writes kembali the Windsurf token, dan keeps everything lokal di your mesin.",
+      "reason": "Permission cakupan: baca Windsurf auth database (status.vscdb) dan use sistem enkripsi capabilities (Windows DPAPI / macOS Keychain / Linux Secret Layanan) untuk dekripsi dan tulis kembali auth-session data.",
+      "storage": "Data cakupan: cuma Windsurf auth-session related entries are baca/diperbarui; semua processes jalan locally."
+    },
+    "password": {
+      "desc": "Sign di dengan your Windsurf akun email dan kata sandi untuk otomatis fetch API key dan akun info.",
+      "emailPlaceholder": "Email address",
+      "passwordPlaceholder": "Kata sandi",
+      "login": "Masuk",
+      "logging": "Lagi masuk...",
+      "empty": "Masukin email dan kata sandi",
+      "success": "Signed di: {{login}}",
+      "failed": "Sign-in gagal: {{error}}"
+    }
+  },
+  "kiro": {
+    "account": {
+      "signedInWith": "Login pakai {{provider}}",
+      "providerUnknown": "Nggak diketahui",
+      "userId": "ID pengguna"
+    },
+    "credits": {
+      "estimatedResetOn": "Perkiraan Pemakaian reset di {{date}}",
+      "bonusUsageLine": "{{terpakai}} terpakai / {{total}} total",
+      "planUsageCoveredLine": "{{terpakai}} terpakai / {{total}} covered di paket",
+      "expiryDays": "{{hari}} hari",
+      "expiryUnknown": "—",
+      "resetNow": "Sebentar lagi reset",
+      "resetInHours": "Reset di {{jam}}h",
+      "resetInMinutes": "Reset di {{menit}}m"
+    },
+    "columns": {
+      "bonusCredits": "Bonus Kredit",
+      "estimatedUsage": "Perkiraan Pemakaian",
+      "expiry": "Kedaluwarsa",
+      "estUsage": "Est. Pemakaian"
+    },
+    "plan": {
+      "free": "Kiro Gratis",
+      "individual": "Kiro Individual",
+      "pro": "Kiro Pro",
+      "business": "Kiro Business",
+      "enterprise": "Kiro Enterprise",
+      "unknown": "Nggak diketahui"
+    },
+    "flowNotice": {
+      "title": "Kiro akun panduan (klik untuk expand/collapse)",
+      "desc": "Akun lagi ganti membaca dan writes lokal Kiro auth file dan instance pengaturan di ini perangkat; OAuth login dan kuota muat ulang call Kiro official APIs.",
+      "reason": "Processing paths include ~/.aws/sso/cache/kiro-auth-token.json, instance profil.json, dan the kiro.kiroAgent entry di status.vscdb.",
+      "storage": "Diproses data includes Kiro session dan kuota information; requests untuk Kiro official APIs send required auth fields (such as code, refreshToken, accessToken, dan profileArn)."
+    },
+    "title": "Kiro Manajemen akun",
+    "instances": {
+      "unsupported": {
+        "descPlatform": "Kiro multi-instance is tersedia cuma di macOS, Windows dan Linux."
+      }
+    },
+    "empty": {
+      "description": "Klik \"Tambah akun\" buat mulai ngatur Kiro akun"
+    },
+    "addModal": {
+      "title": "Tambah Kiro Akun"
+    },
+    "oauth": {
+      "desc": "Klik the button below dan complete Kiro otorisasi di your browser."
+    },
+    "token": {
+      "desc": "Tempel your Kiro access token atau exported JSON data."
+    },
+    "import": {
+      "localDesc": "Impor Kiro akun data dari lokal Kiro client atau a JSON file.",
+      "localClient": "Impor dari lokal Kiro"
+    },
+    "injectToVSCode": "Ganti ke Kiro"
+  }
+}
